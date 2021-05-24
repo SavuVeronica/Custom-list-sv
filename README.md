@@ -2,6 +2,10 @@
 
 This library was created with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.14.
 
+## 🌈 Preview
+
+https://github.com/SavuVeronica/Custom-list-sv/blob/master/demo.PNG
+
 ## 🚀 Technologies
 
 - Typescript
