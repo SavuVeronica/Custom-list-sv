@@ -4,7 +4,7 @@ This library was created with [Angular CLI](https://github.com/angular/angular-c
 
 ## 🌈 Preview
 
-https://github.com/SavuVeronica/Custom-list-sv/blob/master/demo.PNG
+![alt text](https://github.com/SavuVeronica/Custom-list-sv/blob/master/demo.PNG)
 
 ## 🚀 Technologies
 
