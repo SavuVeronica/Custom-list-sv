@@ -1,0 +1,26 @@
+<mat-card class="todo-list">
+  <mat-card-title>
+    <h1>{{title}}</h1>
+  </mat-card-title>
+
+  <mat-card-content>
+    <div class="search">
+      <input id="newToDo" type="text" [(ngModel)]="newToDo">
+      <span (click)="addItem()">
+          <i class="fas fa-plus"></i>
+        </span>
+    </div>
+
+    <div>
+      <ul>
+        <li *ngFor="let item of itemsList; let i=index;">
+          <mat-checkbox [(ngModel)]="item.isChecked" (change)="checkItem(item)">
+            <span class="input" role="textbox" [contentEditable]="false">{{item.description}} </span>
+          </mat-checkbox>
+          <i (click)="removeItem(i)" class="fas fa-trash-alt"></i>
+        </li>
+        <br>
+      </ul>
+    </div>
+  </mat-card-content>
+</mat-card>
